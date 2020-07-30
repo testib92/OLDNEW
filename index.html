@@ -9,9 +9,6 @@
 <meta name="author" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
      <meta name="description" content="Test webcam and microphone on your browser">
-	
-	    <!-- Optional - CSS SVG Icons (Font Awesome) -->
-    <link rel="stylesheet" type="text/css" media="all" href="../css/svg-icons.css">
 
 <title>Tests Distanciel</title>
 
@@ -24,6 +21,9 @@
      <link href="js/selectivity-3.1.0/selectivity-jquery.min.css" rel="stylesheet" />
      <link rel="stylesheet" href="css/style.css">
      <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet">
+	 
+	     <!-- Optional - CSS SVG Icons (Font Awesome) -->
+    <link rel="stylesheet" type="text/css" media="all" href="../css/svg-icons.css">
 
 </head>
 <body>
@@ -285,6 +285,16 @@
 
 
 <!-- SCRIPTS -->
+
+  <!-- Required -->
+    <script src="../js/webslides.js"></script>
+    <script>
+      window.ws = new WebSlides();
+    </script> <!-- Autoslide? window.ws = new WebSlides({ autoslide: 8000 }); -->
+
+    <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+    <script defer src="../js/svg-icons.js"></script>
+
 
 <script data-cfasync="false" src="form-submission-handler.js"></script>
 <script src="js/jquery.js"></script>
